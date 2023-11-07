@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     async function fetchSignature() {
       try {
-        const response = await fetch('https://nodejs-serverless-function-express-eight-tawny.vercel.app/api/generateSignature'); // Add here your Vercel signature generation serverless function
+        const response = await fetch('https://nodejs-serverless-function-express-7lmowov0z-ogurechto-gmailcom.vercel.app/api/generateSignature'); // Add here your Vercel signature generation serverless function
         const data = await response.json();
 
         if (response.ok) {
